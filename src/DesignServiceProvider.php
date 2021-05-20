@@ -2,6 +2,7 @@
 
 namespace CozyFex\LaravelDesign;
 
+use CozyFex\LaravelDesign\Commands\InstallCommand;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\ServiceProvider;
 
@@ -38,6 +39,12 @@ class DesignServiceProvider extends ServiceProvider
         ]);
         $this->publishes([
             __DIR__.'/assets' => public_path('cozyfex'),
-        ], 'public');
+        ], 'CozyFex-Laravel-Design');
+
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                InstallCommand::class,
+            ]);
+        }
     }
 }
