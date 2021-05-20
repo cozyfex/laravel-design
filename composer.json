@@ -1,10 +1,15 @@
 {
     "name": "cozyfex/laravel-design",
-    "type": "library",
     "description": "Laravel Design",
-    "version": "1.0.0",
-    "require": {
-        "php": "^7.3|^8.0"
+    "keywords": [
+        "laravel",
+        "design"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/cozyfex/cozyfex-design/issues",
+        "source": "https://github.com/cozyfex/laravel-design"
     },
     "authors": [
         {
@@ -12,5 +17,13 @@
             "email": "cozyfex@gmail.com"
         }
     ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CozyFex\\": "src/"
+        }
+    },
     "minimum-stability": "dev"
 }
