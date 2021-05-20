@@ -1,6 +1,6 @@
 <?php
 
-namespace CozyFex\LaravelDesign\Commands;
+namespace CozyFex\Laravel\Design\Commands;
 
 use Illuminate\Console\Command;
 

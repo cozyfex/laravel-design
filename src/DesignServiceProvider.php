@@ -1,8 +1,8 @@
 <?php
 
-namespace CozyFex\LaravelDesign;
+namespace CozyFex\Laravel\Design;
 
-use CozyFex\LaravelDesign\Commands\InstallCommand;
+use CozyFex\Laravel\Design\Commands\InstallCommand;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\ServiceProvider;
 
