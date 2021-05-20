@@ -1,6 +1,6 @@
 <?php
 
-namespace CozyFex\Laravel\Design\Controllers;
+namespace CozyFex\LaravelDesign\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

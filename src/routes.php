@@ -1,12 +1,12 @@
 <?php
 
-use CozyFex\Laravel\Design\Controllers\FormController;
-use CozyFex\Laravel\Design\Controllers\GalleryController;
-use CozyFex\Laravel\Design\Controllers\PasswordController;
-use CozyFex\Laravel\Design\Controllers\TableController;
-use CozyFex\Laravel\Design\Controllers\ULController;
-use CozyFex\Laravel\Design\Controllers\ViewController;
-use CozyFex\Laravel\Design\Controllers\WidgetController;
+use CozyFex\LaravelDesign\Controllers\FormController;
+use CozyFex\LaravelDesign\Controllers\GalleryController;
+use CozyFex\LaravelDesign\Controllers\PasswordController;
+use CozyFex\LaravelDesign\Controllers\TableController;
+use CozyFex\LaravelDesign\Controllers\ULController;
+use CozyFex\LaravelDesign\Controllers\ViewController;
+use CozyFex\LaravelDesign\Controllers\WidgetController;
 use Illuminate\Support\Facades\Route;
 
 # For base design

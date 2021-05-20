@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CozyFex\\Laravel\\Design\\": "src/"
+            "CozyFex\\LaravelDesign\\": "src/"
         }
     },
     "extra": {
@@ -31,7 +31,7 @@
         },
         "laravel": {
             "providers": [
-                "CozyFex\\Laravel\\Design\\DesignServiceProvider"
+                "CozyFex\\LaravelDesign\\DesignServiceProvider"
             ]
         }
     },
