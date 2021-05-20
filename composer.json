@@ -1,0 +1,15 @@
+{
+    "name": "cozyfex/laravel-design",
+    "description": "Laravel Design",
+    "type": "library",
+    "require": {
+        "laravel/laravel": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "Felix D.H. Kang",
+            "email": "cozyfex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
