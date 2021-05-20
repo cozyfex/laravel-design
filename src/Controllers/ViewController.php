@@ -15,7 +15,7 @@ class ViewController extends Controller
      */
     public function index(): Response
     {
-        return response()->view('base.view', ['currentMenu' => 'view', 'title' => 'View']);
+        return response()->view('design::view', ['currentMenu' => 'view', 'title' => 'View']);
     }
 
     /**

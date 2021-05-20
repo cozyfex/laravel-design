@@ -15,7 +15,7 @@ class ULController extends Controller
      */
     public function index(): Response
     {
-        return response()->view('base.ul', ['currentMenu' => 'ul', 'title' => 'UL']);
+        return response()->view('design::ul', ['currentMenu' => 'ul', 'title' => 'UL']);
     }
 
     /**

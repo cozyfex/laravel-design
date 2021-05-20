@@ -15,7 +15,7 @@ class GalleryController extends Controller
      */
     public function index(): Response
     {
-        return response()->view('base.gallery', ['currentMenu' => 'gallery', 'title' => 'Gallery']);
+        return response()->view('design::gallery', ['currentMenu' => 'gallery', 'title' => 'Gallery']);
     }
 
     /**

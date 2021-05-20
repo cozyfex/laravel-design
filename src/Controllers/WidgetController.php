@@ -15,7 +15,7 @@ class WidgetController extends Controller
      */
     public function index(): Response
     {
-        return response()->view('base.widget', ['currentMenu' => 'widget', 'title' => 'Widget']);
+        return response()->view('design::widget', ['currentMenu' => 'widget', 'title' => 'Widget']);
     }
 
     /**

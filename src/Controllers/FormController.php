@@ -15,7 +15,7 @@ class FormController extends Controller
      */
     public function index(): Response
     {
-        return response()->view('base.form', ['currentMenu' => 'form', 'title' => 'Form']);
+        return response()->view('design::form', ['currentMenu' => 'form', 'title' => 'Form']);
     }
 
     /**

@@ -15,7 +15,7 @@ class TableController extends Controller
      */
     public function index(): Response
     {
-        return response()->view('base.table', ['currentMenu' => 'table', 'title' => 'Table']);
+        return response()->view('design::table', ['currentMenu' => 'table', 'title' => 'Table']);
     }
 
     /**

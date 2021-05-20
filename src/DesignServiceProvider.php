@@ -17,7 +17,6 @@ class DesignServiceProvider extends ServiceProvider
     {
         $this->app->make('CozyFex\LaravelDesign\Controllers\FormController');
         $this->app->make('CozyFex\LaravelDesign\Controllers\GalleryController');
-        $this->app->make('CozyFex\LaravelDesign\Controllers\IndexController');
         $this->app->make('CozyFex\LaravelDesign\Controllers\PasswordController');
         $this->app->make('CozyFex\LaravelDesign\Controllers\TableController');
         $this->app->make('CozyFex\LaravelDesign\Controllers\ULController');
@@ -37,5 +36,8 @@ class DesignServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/views' => base_path('resources/views/CozyFex/Laravel/Design'),
         ]);
+        $this->publishes([
+            __DIR__.'/assets' => public_path('cozyfex'),
+        ], 'public');
     }
 }

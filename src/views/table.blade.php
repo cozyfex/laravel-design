@@ -1,4 +1,4 @@
-@extends('resources.views.layouts.web')
+@extends('design::layouts.web')
 
 @section('title', $title)
 

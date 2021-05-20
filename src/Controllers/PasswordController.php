@@ -15,7 +15,7 @@ class PasswordController extends Controller
      */
     public function index(): Response
     {
-        return response()->view('base.password', ['currentMenu' => 'password', 'title' => 'Password']);
+        return response()->view('design::password', ['currentMenu' => 'password', 'title' => 'Password']);
     }
 
     /**
