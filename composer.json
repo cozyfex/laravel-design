@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CozyFex\\": "src/"
+            "CozyFex\\LaravelDesign\\": "src/"
         }
     },
     "minimum-stability": "dev"
