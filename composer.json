@@ -1,8 +1,10 @@
 {
     "name": "cozyfex/laravel-design",
-    "description": "Laravel Design",
     "type": "library",
+    "description": "Laravel Design",
+    "version": "1.0.0",
     "require": {
+        "php": "^7.3|^8.0",
         "laravel/laravel": "^8.0"
     },
     "authors": [
