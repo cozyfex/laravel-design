@@ -11,7 +11,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'cozyfex:laravel-design-install';
+    protected $signature = 'cozyfex:design:install';
 
     /**
      * The console command description.
